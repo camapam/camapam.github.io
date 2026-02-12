@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pamela Camacho — Portfolio</title>
+  <meta name="description" content="Pamela Camacho — Helping modern CX teams at Assembled. Passion for helping people personally and professionally." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Day scene (fades out as you scroll) -->
+  <div class="scene scene-day" aria-hidden="true">
+    <div class="scene-day-bg"></div>
+    <div class="hills hills-day">
+      <div class="hill hill-back"></div>
+      <div class="hill hill-mid"></div>
+      <div class="hill hill-front"></div>
+    </div>
+    <div class="clouds-day">
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+      <div class="cloud cloud-3"></div>
+      <div class="cloud cloud-4"></div>
+      <div class="cloud cloud-5"></div>
+    </div>
+  </div>
+  <!-- Night scene (fades in as you scroll) -->
+  <div class="scene scene-night" aria-hidden="true">
+    <div class="scene-night-bg"></div>
+    <div class="hills hills-night">
+      <div class="hill hill-back"></div>
+      <div class="hill hill-mid"></div>
+      <div class="hill hill-front"></div>
+    </div>
+    <div class="moon" aria-hidden="true"></div>
+    <div class="stars" aria-hidden="true">
+      <span class="star star-1"></span>
+      <span class="star star-2"></span>
+      <span class="star star-3"></span>
+      <span class="star star-4"></span>
+      <span class="star star-5"></span>
+      <span class="star star-6"></span>
+      <span class="star star-7"></span>
+      <span class="star star-8"></span>
+      <span class="star star-9"></span>
+      <span class="star star-10"></span>
+    </div>
+    <div class="clouds-night">
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+      <div class="cloud cloud-3"></div>
+      <div class="cloud cloud-4"></div>
+      <div class="cloud cloud-5"></div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="hero-pronouns">She/Her</p>
+        <h1 class="hero-title">Pamela Camacho</h1>
+        <p class="hero-tagline">Helping modern CX teams at Assembled</p>
+        <p class="hero-location">San Francisco, California</p>
+        <p class="hero-about">
+          Passion for helping people both personally and professionally.
+        </p>
+        <a href="#experience" class="btn btn-primary">Explore my journey</a>
+      </div>
+      <div class="hero-decoration">
+        <div class="totoro-leaf leaf-1"></div>
+        <div class="totoro-leaf leaf-2"></div>
+        <div class="soot-dot dot-1"></div>
+        <div class="soot-dot dot-2"></div>
+        <div class="soot-dot dot-3"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="card-badge">Current</div>
+            <h3>GTM</h3>
+            <p class="company">Assembled</p>
+            <p class="date">Dec 2025 – Present · 3 mos</p>
+            <p class="location">San Francisco, California, United States</p>
+          </article>
+          <article class="timeline-card">
+            <h3>Cyber Support Engineer</h3>
+            <p class="company">Darktrace</p>
+            <p class="date">Feb 2024 – Dec 2025 · 1 yr 11 mos</p>
+            <p class="skills-inline">DNS, SQL</p>
+          </article>
+          <article class="timeline-card">
+            <h3>Information Technology Coordinator</h3>
+            <p class="company">Van Meter Williams Pollack (VMWP)</p>
+            <p class="date">Feb 2021 – Feb 2024 · 3 yrs 1 mo</p>
+            <p class="location">San Francisco, California, United States</p>
+            <p class="skills-inline">Vendor Management, Information Technology</p>
+          </article>
+          <article class="timeline-card">
+            <h3>Test Engineer</h3>
+            <p class="company">Bureau Veritas Consumer Products Services</p>
+            <p class="date">May 2019 – Aug 2021 · 2 yrs 4 mos</p>
+            <p class="location">Orange County, California Area</p>
+            <p class="skills-inline">Internet Protocol Suite (TCP/IP), Bluetooth</p>
+          </article>
+          <article class="timeline-card">
+            <h3>Test Technician</h3>
+            <p class="company">Bureau Veritas Consumer Products Services</p>
+            <p class="date">Jul 2015 – May 2019 · 3 yrs 11 mos</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <h3>Computer Science</h3>
+            <p class="school">California State University, Fullerton</p>
+            <p class="date">2015 – 2019</p>
+          </article>
+          <article class="edu-card">
+            <h3>California State University, Northridge</h3>
+            <p class="date">2012 – 2014</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Certifications</h2>
+        <div class="certs">
+          <div class="cert-badge">
+            <span class="cert-name">CompTIA A+ ce Certification</span>
+            <span class="cert-issuer">CompTIA</span>
+            <span class="cert-date">Issued Jan 2024 · Expires Jan 2027</span>
+          </div>
+        </div>
+        <div class="skills-tags">
+          <span>Information Technology</span>
+          <span>Customer Service</span>
+          <span>Vendor Management</span>
+          <span>DNS</span>
+          <span>SQL</span>
+          <span>TCP/IP</span>
+          <span>Bluetooth</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Let’s connect</h2>
+        <p class="contact-text">Open to new opportunities and conversations.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/pamela-camacho" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pamela Camacho · San Francisco, CA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
